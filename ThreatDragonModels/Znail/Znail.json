@@ -10,7 +10,109 @@
       {
         "title": "Znail System",
         "thumbnail": "./public/content/images/thumbnail.jpg",
-        "id": 0
+        "id": 0,
+        "diagramJson": {
+          "cells": [
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 56,
+                "y": 67
+              },
+              "angle": 0,
+              "id": "0fc59b98-3669-490b-8110-0172795c64fc",
+              "z": 1,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Upstream Service"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 692,
+                "y": 61
+              },
+              "angle": 0,
+              "id": "9d9bdfb8-21aa-45aa-8a8b-356edc75de5a",
+              "z": 2,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "SUT"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 338,
+                "y": 26
+              },
+              "target": {
+                "x": 346,
+                "y": 197
+              },
+              "vertices": [
+                {
+                  "x": 294,
+                  "y": 110
+                }
+              ],
+              "id": "0a3d6840-f288-4e20-82c9-ef0760da2912",
+              "z": 3,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 619,
+                "y": 35
+              },
+              "target": {
+                "x": 622,
+                "y": 186
+              },
+              "vertices": [
+                {
+                  "x": 649,
+                  "y": 108
+                }
+              ],
+              "id": "688f8ef8-cb91-49cb-a376-b4881e9080b6",
+              "z": 4,
+              "attrs": {}
+            }
+          ]
+        },
+        "size": {
+          "height": 590,
+          "width": 917
+        }
       }
     ]
   }
