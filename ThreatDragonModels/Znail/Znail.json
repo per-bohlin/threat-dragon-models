@@ -1,0 +1,17 @@
+{
+  "summary": {
+    "title": "Znail",
+    "owner": "per-bohlin",
+    "description": "Znail network emulator"
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "title": "Znail System",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ]
+  }
+}
